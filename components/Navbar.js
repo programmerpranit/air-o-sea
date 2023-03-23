@@ -79,11 +79,11 @@ function MobileNav({ open, setOpen, user }) {
   );
 }
 
-export default function Navbar({ user }) {
+export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex filter bg-white px-4 py-4 h-20 items-center pcontainer">
-      <MobileNav open={open} setOpen={setOpen} user={user} />
+    <nav className="flex filter bg-white px-4 py-4 h-20 items-center ">
+      <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
         <a className="text-2xl font-semibold" href="#">
           AIR O SEA
