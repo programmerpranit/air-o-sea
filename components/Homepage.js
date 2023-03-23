@@ -40,7 +40,7 @@ export default function Homepage() {
         <p className="italic text-center text-primary font-bold">Services</p>
         <h3 className="text-bold text-center">Our Platform Offers</h3>
 
-        <div className="grid grid-cols-3">
+        <div className="grid lg:grid-cols-3">
           <div className="rounded-lg flex  m-4 p-4 bg-cyan-100">
             <Image className="" src="/demo.png" width="100" height="50" />
             <div className="flex flex-col m-2 p-2">
@@ -100,7 +100,7 @@ export default function Homepage() {
                   fill="currentColor"
                   class="bi bi-arrow-right"
                   viewBox="0 0 16 16"
-                  className="m-1"
+                  className=""
                 >
                   <path
                     fill-rule="evenodd"
