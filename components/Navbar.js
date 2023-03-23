@@ -8,7 +8,7 @@ function MobileNav({ open, setOpen, user }) {
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter  `}
     >
-      <div className="flex items-center justify-center filter  bg-white h-20">
+      <div className="flex items-center justify-center filter text-navbar  bg-white h-20">
         <a className="text-xl font-semibold" href="#">
           AIR O SEA
         </a>
@@ -16,7 +16,7 @@ function MobileNav({ open, setOpen, user }) {
       <div className=" text-center flex flex-col ml-4 pt-5">
         <Link href={"/"}>
           <p
-            className="py-5 text-black uppercase font-semibold"
+            className="py-5 text-navbar uppercase font-semibold"
             onClick={() =>
               setTimeout(() => {
                 setOpen(!open);
@@ -28,7 +28,7 @@ function MobileNav({ open, setOpen, user }) {
         </Link>
         <Link href={"/about"}>
           <p
-            className="py-5 text-black uppercase font-semibold"
+            className="py-5 text-navbar uppercase font-semibold"
             onClick={() =>
               setTimeout(() => {
                 setOpen(!open);
@@ -40,7 +40,7 @@ function MobileNav({ open, setOpen, user }) {
         </Link>
         <Link href={"/projects"}>
           <p
-            className="py-5 text-black uppercase font-semibold"
+            className="py-5 text-navbar uppercase font-semibold"
             onClick={() =>
               setTimeout(() => {
                 setOpen(!open);
@@ -52,7 +52,7 @@ function MobileNav({ open, setOpen, user }) {
         </Link>
         <Link href={"/blog"}>
           <p
-            className="py-5 text-black uppercase font-semibold"
+            className="py-5 text-navbar uppercase font-semibold"
             onClick={() =>
               setTimeout(() => {
                 setOpen(!open);
@@ -64,7 +64,7 @@ function MobileNav({ open, setOpen, user }) {
         </Link>
         <Link href={"/contact"}>
           <p
-            className="py-5 text-black uppercase font-semibold"
+            className="py-5 text-navbar uppercase font-semibold"
             onClick={() =>
               setTimeout(() => {
                 setOpen(!open);
@@ -82,7 +82,7 @@ function MobileNav({ open, setOpen, user }) {
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex filter bg-white px-4 py-4 h-20 items-center ">
+    <nav className="flex filter text-navbar bg-white px-4 py-4 h-20 items-center ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
         <a className="text-2xl font-semibold" href="#">
@@ -116,27 +116,27 @@ export default function Navbar() {
 
         <div className="hidden md:flex list-none">
           <Link href={"/"}>
-            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold">
+            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-navbar uppercase font-semibold">
               Home
             </li>
           </Link>
           <Link href={"/about"}>
-            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold">
+            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-navbar uppercase font-semibold">
               About Us
             </li>
           </Link>
           <Link href={"/projects"}>
-            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold">
+            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-navbar uppercase font-semibold">
               Services
             </li>
           </Link>
           <Link href={"/blog"}>
-            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold">
+            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-navbar uppercase font-semibold">
               Feedback
             </li>
           </Link>
           <Link href={"/contact"}>
-            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-black uppercase font-semibold">
+            <li className="hover:text-blue cursor-pointer mx-5 m-auto text-sm text-navbar uppercase font-semibold">
               Contact Us
             </li>
           </Link>

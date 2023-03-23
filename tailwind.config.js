@@ -17,6 +17,7 @@ module.exports = {
         contact_bg: '#212529',
         footer_text:'#BCBCBCFA',
         text_home: '#606060FA',
+        navbar: '#572459',
         // skyblue: '#daf0ff',
       },
     },

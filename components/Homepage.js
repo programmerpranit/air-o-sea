@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Services from "./Services";
 
 export default function Homepage() {
   return (
     <div>
-      <div className="m-2 p-4 text-text_home">
+      <div className="m-2 p-4 text-text_home flex flex-col">
         <p className="italic text-center text-primary font-bold">About Us</p>
         <h3 className="font-bold text-center my-2 text-black">
           Welcome To Airosea International Ltd
@@ -35,43 +36,124 @@ export default function Homepage() {
           organization’s growth.
         </p>
       </div>
-      <div>
+      <div className="flex flex-col">
         <p className="italic text-center text-primary font-bold">Services</p>
         <h3 className="text-bold text-center">Our Platform Offers</h3>
-        <div>
+
+        <div className="grid grid-cols-3">
           <div className="rounded-lg flex  m-4 p-4 bg-cyan-100">
             <Image className="" src="/demo.png" width="100" height="50" />
             <div className="flex flex-col m-2 p-2">
               <h6>International Joint Venture Project</h6>
-              <p>Read More</p>
+              <div className="flex">
+                <p>Read More</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                  className="m-1"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
           <div className="rounded-lg flex  m-4 p-4 border-b-indigo-100">
             <Image className="" src="/demo.png" width="100" height="50" />
             <div className="flex flex-col m-2 p-2">
-              <h6>International Joint Venture Project</h6>
-              <p>Read More</p>
+              <h5>International Joint Venture Project</h5>
+              <div className="flex">
+                <p>Read More</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                  className="m-1"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
           <div className="rounded-lg flex  m-4 p-4 bg-cyan-100">
             <Image className="" src="/demo.png" width="100" height="50" />
             <div className="flex flex-col m-2 p-2">
               <h6>International Joint Venture Project</h6>
-              <p>Read More</p>
+              <div className="flex">
+                <p className="">Read More</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                  className="m-1"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
           <div className="rounded-lg flex  m-4 p-4 bg-slate-100">
             <Image className="" src="/demo.png" width="100" height="50" />
             <div className="flex flex-col m-2 p-2">
               <h6>International Joint Venture Project</h6>
-              <p>Read More</p>
+              <div className="flex">
+                <p>Read More</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                  className="m-1"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
           <div className="rounded-lg flex  m-4 p-4 border-b-indigo-100">
             <Image className="" src="/demo.png" width="100" height="50" />
             <div className="flex flex-col m-2 p-2">
               <h6>International Joint Venture Project</h6>
-              <p>Read More</p>
+              <div className="flex">
+                <p>Read More</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                  className="m-1"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
@@ -170,6 +252,7 @@ export default function Homepage() {
           </div>
         </ul>
       </div>
+      <Services />
     </div>
   );
 }
