@@ -2,7 +2,7 @@ export default function Contactus() {
   return (
     <div className="flex flex-col bg-gray-300">
       <div>
-        <h1 className="text-black text-center">Contact Us</h1>
+        <h1 className="text-black text-center text-bold">Contact Us</h1>
       </div>
       <div>
         <h5 className="font-bold text-primary italic text-center">
@@ -83,6 +83,9 @@ export default function Contactus() {
           <textarea className="bg-white   text-sm rounded-lg   block w-full p-2.5"></textarea>
         </div>
       </div>
+
+
+      
     </div>
   );
 }

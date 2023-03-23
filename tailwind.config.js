@@ -16,6 +16,7 @@ module.exports = {
         secondary: "#572459",
         contact_bg: '#212529',
         footer_text:'#BCBCBCFA',
+        text_home: '#606060FA',
         // skyblue: '#daf0ff',
       },
     },
