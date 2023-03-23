@@ -5,7 +5,7 @@ export default function Homepage() {
   return (
     <div>
       <div className="m-2 p-4 text-text_home flex flex-col">
-        <p className="italic text-center text-primary font-bold">About Us</p>
+        <p className="sub-heading">About Us</p>
         <h3 className="font-bold text-center my-2 text-black">
           Welcome To Airosea International Ltd
         </h3>
@@ -35,9 +35,11 @@ export default function Homepage() {
           customers. It’s our commitment to assist our customers in their
           organization’s growth.
         </p>
-      </div>
+      </div>.
+
+
       <div className="flex flex-col">
-        <p className="italic text-center text-primary font-bold">Services</p>
+        <p className="sub-heading">Services</p>
         <h3 className="text-bold text-center">Our Platform Offers</h3>
 
         <div className="grid lg:grid-cols-3">
@@ -159,7 +161,7 @@ export default function Homepage() {
         </div>
       </div>
       <div className="m-2 p-4 flex flex-col justify-center items-center">
-        <p className="italic text-center text-primary font-bold">
+        <p className="sub-heading">
           Why choose Us?
         </p>
         <h3 className="font-bold text-center my-2 text-black">
