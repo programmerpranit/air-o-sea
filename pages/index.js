@@ -8,7 +8,6 @@ import WhyChooseUs from "@/sections/WhyChooseUs";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <AboutUs />
       <Services/>

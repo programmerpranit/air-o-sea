@@ -14,7 +14,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div
-            className={`links flex fixed  ${
+            className={`links flex max-md:fixed  ${
               toggle
                 ? "flex-col w-2/3  right-0 text-center animate-fade fixed top-16 bg-white"
                 : "max-md:hidden"
