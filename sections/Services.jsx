@@ -76,47 +76,91 @@ const Services = () => {
                     </a>
                   </li>
                 </ul>
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-                  <div className="px-4 py-5 flex-auto">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6  rounded">
+                  <div className="flex-auto">
                     <div className="tab-content tab-space">
                       <div
                         className={openTab === 1 ? "block" : "hidden"}
                         id="link1"
                       >
-                        <p>
-                          Collaboratively administrate empowered markets via
-                          plug-and-play networks. Dynamically procrastinate B2C
-                          users after installed base benefits.
-                          <br />
-                          <br /> Dramatically visualize customer directed
-                          convergence without revolutionary ROI.
+                        <h4 className="text-center">Engineering</h4>
+                        <div className="flex justify-center items-center m-2">
+                          <Image
+                            className="border-2 rounded-2xl"
+                            width={200}
+                            height={200}
+                            src="/engineering_1.jpeg"
+                          />
+                        </div>
+                        <p className="p-2 m-2">
+                          We have the expertise to take the End to End
+                          consultancy responsibility of mega projects.
+                        </p>
+                        <p className="m-2 p-2">
+                          We assist in design, sourcing, procurement,
+                          development, testing and delivery.
+                        </p>
+                        <p className="m-2 p-2">
+                          Based on the requirements we have successfully
+                          delivered projects for
+                          <ul className="list-disc">
+                            <li>Hospitals</li>
+                            <li>Hotels, Restaurants</li>
+                            <li>School, Colleges </li>
+                            <li>Bungalows, Flats & Townships</li>
+                          </ul>
                         </p>
                       </div>
                       <div
                         className={openTab === 2 ? "block" : "hidden"}
                         id="link2"
                       >
-                        <p>
-                          Completely synergize resource taxing relationships via
-                          premier niche markets. Professionally cultivate
-                          one-to-one customer service with robust ideas.
-                          <br />
-                          <br />
-                          Dynamically innovate resource-leveling customer
-                          service for state of the art customer service.
+                        <h4 className="text-center">Procurement</h4>
+                        <div className="flex justify-center items-center m-2">
+                          <Image
+                            className="border-2 rounded-2xl"
+                            width={200}
+                            height={200}
+                            src="/procurement.jpg"
+                          />
+                        </div>
+                        <p className="m-2 p-2">
+                          Full service interior design consulting (visioning,
+                          design, specification, implementation)
+                        </p>
+                        <p className="m-2 p-2">
+                          FF&E (furniture, fixtures, and equipment) selection
+                          and specification
+                        </p>
+                        <p className="m-2 p-2">
+                          OS&E (operating, supplies, and equipment) selection
+                          and specification
                         </p>
                       </div>
                       <div
                         className={openTab === 3 ? "block" : "hidden"}
                         id="link3"
                       >
-                        <p>
-                          Efficiently unleash cross-media information without
-                          cross-media value. Quickly maximize timely
-                          deliverables for real-time schemas.
-                          <br />
-                          <br /> Dramatically maintain clicks-and-mortar
-                          solutions without functional solutions.
+                        <h4 className="text-center">Consultancy</h4>
+                        <div className="flex justify-center items-center m-2">
+                          <Image
+                            className="border-2 rounded-2xl"
+                            width={300}
+                            height={300}
+                            src="/consulting.png"
+                          />
+                        </div>
+                        <p className="p-2 m-2">
+                          We help our customers to navigate the importing goods
+                          which give them comfort of smooth sailing.
+                        </p>
+                        <p className="p-2 m-2">
+                          We search all the different manufacturers throughout
+                          China and choose the unique product.
+                        </p>
+                        <p className="p-2 m-2">
+                          We help people to make international business in their
+                          native language.
                         </p>
                       </div>
                     </div>
