@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <div className="p-4 pt-10 bg-primary bg-opacity-5">
+    <div className="p-4 pt-10 bg-primary bg-opacity-5 mt-20 border-t-2">
       <div className="">
-        <h5 className="text-bold text-lg bg-">About Us</h5>
+        <h5 className="text-bold text-lg my-3 text-primary">About Us</h5>
         <p>
           We are full service international organization having a registered
           office in Hong Kong, getting operated from China and corporate office
@@ -10,8 +10,9 @@ export default function Footer() {
           entrepreneurs, high scale companies, energy generation organizations.
         </p>
       </div>
+      <br/>
       <div className="my-5">
-        <h5 className="text-bold text-lg">Official Info</h5>
+        <h5 className="text-bold text-lg my-3 text-primary">Official Info</h5>
         <p>Registered Office: Hong Kong</p>
         <p>Corporate Office: Guangzhou (China)</p>
         <p>Branch Office: India</p>

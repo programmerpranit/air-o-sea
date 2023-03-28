@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -10,7 +11,8 @@ const Navbar = () => {
         <div className="flex md:w-3/4 m-auto justify-between items-center">
           <div className="logo">
             <Link href={"/"}>
-              <h4>Air O Sea</h4>
+              {/* <h4>Air O Sea</h4> */}
+              <Image src={'/air-o-sea-logo.png'} width={100} height={70} alt='logo' />
             </Link>
           </div>
           <div

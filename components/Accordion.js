@@ -1,16 +1,15 @@
 import { useState } from "react";
 export default function Accordion({ title, content }) {
-
-
+  
   const [expanded, setExpanded] = useState(false);
   const toggleExpanded = () => setExpanded((current) => !current);
   const minusIcon = "-";
   const plusIcon = "+";
   
   return (
-    <div className=" ">
+    <div className="">
       <div
-        className="my-2 sm:my-4 md:my-6 shadow-sm cursor-pointer bg-white"
+        className="my-2 sm:my-4 md:my-6 shadow-sm cursor-pointer bg-slate-100"
         onClick={toggleExpanded}
       >
         <div className="px-6 text-left items-center h-20 select-none flex justify-between flex-row">
