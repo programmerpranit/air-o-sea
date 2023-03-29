@@ -14,9 +14,8 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
 
-
       <div className="fixed z-50 bottom-5 right-5">
-        <a href="">
+        <a href="tel:+8613073059491">
           <Image
             className="m-auto mb-3 bg-white border rounded-full p-2"
             src={"/call.png"}
@@ -24,7 +23,7 @@ export default function Home() {
             height={40}
           />
         </a>
-        <a href="">
+        <a href="https://wa.me/8613073059491">
           <Image src={"/whatsapp.png"} width={50} height={50} />
         </a>
       </div>
