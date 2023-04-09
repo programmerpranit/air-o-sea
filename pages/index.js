@@ -1,6 +1,7 @@
 import Slider from "@/components/Slider";
 import AboutUs from "@/sections/AboutUs";
 import Hero from "@/sections/Hero";
+import OurWork from "@/sections/OurWork";
 import Services from "@/sections/Services";
 import WhyChooseUs from "@/sections/WhyChooseUs";
 import Image from "next/image";
@@ -13,6 +14,8 @@ export default function Home() {
       <Slider />
       <Services />
       <WhyChooseUs />
+
+      <OurWork/>
 
       <div className="fixed z-50 bottom-5 right-5">
         <a href="tel:+8613073059491">
